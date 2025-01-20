@@ -24,7 +24,7 @@ A modern, interactive portfolio website built with Node.js, Express, and GSAP an
   - Express.js
 
 ## 🏗️ Project Structure
-
+```bash
 my-portfolio/
 ├── public/
 │   ├── css/
@@ -42,7 +42,7 @@ my-portfolio/
 │   └── resume.ejs
 ├── app.js
 └── package.json
-
+```
 ## 🚦 Getting Started
 
 1. Clone the repository:
