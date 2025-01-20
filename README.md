@@ -26,7 +26,6 @@ A modern, interactive portfolio website built with Node.js, Express, and GSAP an
 
 ## 🏗️ Project Structure
 
-```
 my-portfolio/
 ├── public/
 │   ├── css/
@@ -44,7 +43,6 @@ my-portfolio/
 │   └── resume.ejs
 ├── app.js
 └── package.json
-```
 
 ## 🚦 Getting Started
 
@@ -95,16 +93,4 @@ This project is licensed under the ISC License.
 
 For any inquiries or suggestions, please reach out:
 - Email: bruno.torrijo@gmail.com
-- Instagram: @bruno.torrijo
 ```
-
-This README provides a comprehensive overview of your portfolio website, including:
-- Project features and technologies
-- Setup instructions
-- Project structure
-- Design features
-- Responsive design considerations
-- Version control information
-- License and contact information
-
-The structure is clean and well-organized with emojis for better visual hierarchy and readability.
