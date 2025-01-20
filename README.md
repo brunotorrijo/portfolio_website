@@ -1,4 +1,3 @@
-```markdown:README.md
 # Bruno Torrijo's Portfolio Website
 
 A modern, interactive portfolio website built with Node.js, Express, and GSAP animations. The website features a modular design with smooth transitions and interactive elements.
@@ -93,4 +92,6 @@ This project is licensed under the ISC License.
 
 For any inquiries or suggestions, please reach out:
 - Email: bruno.torrijo@gmail.com
+- LinkedIn: [Bruno Torrijo](https://www.linkedin.com/in/bruno-torrijo-6196331b3/)
+- GitHub: [brunotorrijo](https://github.com/brunotorrijo)
 ```
