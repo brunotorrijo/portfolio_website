@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Torrijo - Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="name">Bruno Torrijo</h1>
+        <button class="contact-btn">Contact</button>
+    </header>
+    
+    <main class="module-container">
+        <div class="module about" data-page="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="/images/headshot.jpg" alt="Bruno Torrijo">
+                </div>
+                <div class="about-text">
+                    <p>Hi! I'm Bruno, a Computer Science student at Maastricht University with a passion for software development and problem-solving.</p>
+                    <p>For a little sneak peek into me and my life ;)</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="module projects" data-page="projects">
+            <h2>Projects</h2>
+            <div class="projects-preview">
+                <div class="project-cards">
+                    <div class="project-card">
+                        <h3>Wagwan</h3>
+                        <p>Employee satisfaction and communication app with ML-powered turnover prediction</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>Personal portfolio built with Node.js, Express, and GSAP animations</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 3</h3>
+                        <p>Description of project 3</p>
+                    </div>
+                </div>
+                <div class="project-indicator">
+                    <div class="indicator-dot active"></div>
+                    <div class="indicator-dot"></div>
+                    <div class="indicator-dot"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="module resume" data-page="resume">
+            <h2>Resume</h2>
+        </div>
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

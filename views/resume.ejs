@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Bruno Torrijo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/resume.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="name">Bruno Torrijo</h1>
+        <a href="/" class="back-btn">Back</a>
+    </header>
+    
+    <main class="resume-container">
+        <div class="resume-card">
+            <section class="resume-header">
+                <h2>Resume</h2>
+                <a href="/Bruno_Torrijo_CV.pdf" class="download-btn" download>Download PDF</a>
+            </section>
+
+            <section class="resume-section education">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <h4>BSc Computer Science</h4>
+                    <p class="institution">Faculty of Science and Engineering, Maastricht University</p>
+                    <p class="date">2023 - Present</p>
+                    <h5>Relevant Coursework:</h5>
+                    <ul>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Databases</li>
+                        <li>Algorithmimc Design</li>
+                        <li>Object Oriented Programming</li>
+                        <li>Computer Networks</li>
+                        <li>Intelligent User Interfaces</li>
+                        <li>Software Engineering and Architectures</li>
+                        <li>Machine Learning and Artificial Intelligence</li>
+                    </ul>
+                </div>
+                <!-- Add more education items -->
+            </section>
+
+            <section class="resume-section experience">
+                <h3>Experience</h3>
+                <div class="resume-item">
+                    <h4>Data Alliance Limburg Hackathon - Best Pitch Award</h4>
+                    <p class="date">Oct. 2024</p>
+                    <p class="description">Awarded the best pitch award for app Wagwan, a prototype for small 
+                        businesses to improve employee satisfaction and communication, boosting 
+                        performance and overall experience within companies</p>
+                </div>
+                <!-- Add more experience items -->
+            </section>
+
+            <section class="resume-section projects">
+                <h3>Projects</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Wagwan</h4>
+                        <ul>
+                            <li>Developed a prototype for small businesses to improve employee satisfaction and communication, boosting performance and overall experience within companies. </li>
+                            <li>The employers would receive data based on their employees' satisfaction levels (E-NPS, ESAT, E-ES), which would be passed on to an SVM model and used to predict the probability of employee turnover rate.</li>
+                            <li>This project was developed in a team for the Data Alliance Limburg Hackathon</li>
+                            <li>MongoDB, Express, React, Node.js, Python, Typescript</li>
+                        </ul>
+                        <h4>Transitor</h4>
+                        <ul>
+                            <li>Developed a locally hosted web mapping app to calculate travel times within the city of Maastricht </li>
+                            <li>Included fully functioning bus tracking through the connection to an API provided by the university with all the train and bus information in the Netherlands</li>
+                            <li>Implemented A-Star pathfinding algorithm to calculate the shortest path between two points</li>
+                            <li>Java, Git, JavaFX</li>
+                        </ul>
+                        <h4>CrowdScape</h4>
+                        <ul>
+                            <li>Started developing an algorithm to predict the level of crowding in different cities and areas within a city</li>
+                            <li>This was used to create a map of the city with the level of crowding in each area</li>
+                            <li>Python, TypeScript, Git</li>
+                        </ul>
+                    </div>
+                    <!-- Add more skill categories -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="/js/resume.js"></script>
+</body>
+</html>

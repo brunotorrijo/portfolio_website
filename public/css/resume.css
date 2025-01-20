@@ -1,0 +1,156 @@
+.resume-container {
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.resume-card {
+    background-color: var(--cream);
+    color: var(--charcoal);
+    padding: 50px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(20px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.resume-header h2 {
+    font-size: 3em;
+    color: var(--dark-navy);
+    margin: 0;
+}
+
+.download-btn {
+    background-color: var(--dark-navy);
+    color: var(--cream);
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: var(--charcoal);
+    transform: translateY(-2px);
+}
+
+.resume-section {
+    margin-bottom: 40px;
+}
+
+.resume-section h3 {
+    font-size: 2em;
+    color: var(--dark-navy);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--dark-navy);
+    padding-bottom: 10px;
+}
+
+.resume-item {
+    background-color: var(--dark-navy);
+    color: var(--cream);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.resume-item:hover {
+    transform: translateY(-5px);
+}
+
+.resume-item h4 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.institution {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 0.9em;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.responsibilities {
+    margin-left: 20px;
+}
+
+.responsibilities li {
+    margin-bottom: 5px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-category {
+    background-color: var(--dark-navy);
+    color: var(--cream);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.skill-category h4 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category li {
+    margin-bottom: 8px;
+}
+
+.back-btn {
+    background-color: var(--dark-navy);
+    color: var(--cream);
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: var(--charcoal);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 20px;
+    }
+
+    .resume-card {
+        padding: 30px;
+    }
+
+    .resume-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .resume-header h2 {
+        font-size: 2.2em;
+    }
+}
